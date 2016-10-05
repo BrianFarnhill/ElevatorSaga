@@ -223,6 +223,8 @@ var elevator =
         for(var i = 0; i < elevators.length; i++) {
             initElevator(elevators[i]);
         }
+        // for challenge 6 and 7 where it counts on elevator moves, I got through by only using a single
+        // elevator for most of the work. Not ideal but it passes.
         //initElevator(elevators[0]);
 
 
